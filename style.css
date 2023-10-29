@@ -1,0 +1,622 @@
+body {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  margin: 0;
+  height: 100vh;
+}
+.navbar {
+  background-color: #ffffff; /* Warna latar belakang navbar */
+  padding: 10px 0;
+  height: fit-content;
+}
+
+.header-nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.logo-placeholder {
+  flex: 1;
+}
+
+.logo-img {
+  max-width: 100%;
+}
+
+.menu-items {
+  display: flex;
+}
+
+.home {
+  margin: 0 10px;
+  position: relative;
+}
+
+.home2 a {
+  text-decoration: none;
+  color: #0000004D; /* Warna teks tautan */
+}
+
+.home2 a:hover::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 3px; /* Tinggi garis */
+  background-color: #F7C200; /* Warna garis */
+  opacity: 0; /* Hilangkan garis pada awalnya */
+  transition: opacity 0.3s; /* Efek fade */
+}
+
+.home2 a:hover::before {
+  opacity: 1; /* Tampilkan garis saat hover */
+}
+
+.home3, .home4 {
+  margin: 0 10px;
+  padding: 5px 10px;
+  border: 1px solid #fff; /* Garis pinggir tautan */
+  border-radius: 5px; /* Sudut melengkung */
+}
+
+.home4 a {
+  text-decoration: none;
+  color: #fff; /* Warna teks tautan */
+}
+.headline,
+.headline * {
+  box-sizing: border-box;
+}
+.headline {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.headline-background {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.rectangle-2 {
+  background: linear-gradient(
+    to left,
+    rgba(0, 0, 0, 0.55),
+    rgba(0, 0, 0, 0.55)
+  );
+  flex-shrink: 0;
+  width: 100%;
+  height: 653px;
+  position: relative;
+}
+.lorem-ipsum{
+  color: #fff;
+  text-align: center;
+}
+.title-area {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 648px;
+  height: 232px;
+  position: absolute;
+  left: calc(50% - 324px);
+  top: calc(50% - 116.5px);
+}
+.yayasan-pengukir-senyum {
+  color: #ffffff;
+  text-align: center;
+  font: var(--h-1, 700 50px "Inter", sans-serif);
+  position: relative;
+  align-self: stretch;
+}
+.lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-sed-nec-porttitor-odio-mauris-lobortis-sapien-lacinia-efficitur-aliquam-ligula-libero-tristique-nisl-sit-amet-feugiat-dolor-nibh-eu-ante-nulla-malesuada-tincidunt-fringilla {
+  color: #ffffff;
+  text-align: center;
+  font: var(--bodytext, 500 16px/130% "Inter", sans-serif);
+  position: relative;
+  align-self: stretch;
+}
+.head-button {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: flex-end;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.button-3 {
+  background: transparent;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 1px;
+  padding: 16px 20px 16px 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.button-text {
+  color: #ffffff;
+  text-align: left;
+  font: 500 16px "Inter", sans-serif;
+  position: relative;
+}
+.button {
+  background: #f7c200;
+  border-radius: 8px;
+  padding: 16px 20px 16px 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.button-text2 {
+  color: #ffffff;
+  text-align: left;
+  font: 700 16px "Inter", sans-serif;
+  position: relative;
+}
+.horizontal-card-section,
+.horizontal-card-section * {
+  box-sizing: border-box;
+}
+.horizontal-card-section {
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.donasi-yang-sedang-berjalan {
+  color: #333333;
+  height: 100px;
+  text-align: center;
+  font: var(--h-2, 700 34px "Inter", sans-serif);
+  position: flex;
+  align-items: center;
+  align-self: stretch;
+}
+.horizontal-card {
+  background: #ffffff;
+  padding: 48px 0px 96px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 100%;
+  position: relative;
+}
+.horizontal-card-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+  width: 956px;
+  position: relative;
+}
+.horizontal-card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 392px;
+  position: relative;
+}
+.headline-text {
+  color: #000000;
+  text-align: left;
+  font: var(--h-3, 700 24px "Inter", sans-serif);
+  position: relative;
+  align-self: stretch;
+}
+.gambar-ini-diambil-pada-saat-acara-pada-tanggal-30-februari-2077-acara-tersebut-dihadiri-oleh-pendidiri-yayasan-pengukir-senyum {
+  color: rgba(0, 0, 0, 0.5);
+  text-align: left;
+  font: var(--bodytext, 500 16px/130% "Inter", sans-serif);
+  position: relative;
+  align-self: stretch;
+}
+.percentage-container {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 271px;
+  height: 48px;
+  position: relative;
+}
+.percentage {
+  padding: 6px 0px 6px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.group-3 {
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 12px;
+  position: static;
+}
+.rectangle-8 {
+  background: #d9d9d9;
+  border-radius: 6px;
+  width: 271px;
+  height: 12px;
+  position: absolute;
+  left: 0px;
+  top: 6px;
+}
+.rectangle-9 {
+  background: #f7c200;
+  border-radius: 6px;
+  width: 135.5px;
+  height: 12px;
+  position: absolute;
+  left: 0px;
+  top: 6px;
+}
+.desc-percentage {
+  display: flex;
+  flex-direction: row;
+  gap: 3px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 240px;
+  position: relative;
+}
+._50 {
+  color: #333333;
+  text-align: left;
+  font: var(--tagline, 800 12px "Inter", sans-serif);
+  position: relative;
+}
+._2-000-000-dari-4-000-000 {
+  color: #9d9d9d;
+  text-align: left;
+  font: var(--tagline, 800 12px "Inter", sans-serif);
+  position: relative;
+  flex: 1;
+}
+.button {
+  background: #f7c200;
+  border-radius: 8px;
+  padding: 16px 20px 16px 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.button-text {
+  color: #ffffff;
+  text-align: left;
+  font: 700 16px "Inter", sans-serif;
+  position: relative;
+}
+.rectangle-3 {
+  border-radius: 8px;
+  flex-shrink: 0;
+  width: 478px;
+  height: 324px;
+  position: relative;
+}
+.horizontal-card2 {
+  background: #ffffff;
+  padding: 0px 0px 96px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 100%;
+  position: relative;
+}
+.button2 {
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.button-text3 {
+  color: #000000;
+  text-align: left;
+  font: 700 16px "Inter", sans-serif;
+  text-decoration: underline;
+  position: relative;
+}
+.footer-section,
+.footer-section * {
+  box-sizing: border-box;
+}
+.footer-section {
+  background: #333333;
+  padding: 96px 10px 48px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+}
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 1152px;
+  position: relative;
+}
+.row-1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.logo-placeholder {
+  flex-shrink: 0;
+  width: 223px;
+  height: 60px;
+  position: relative;
+  overflow: hidden;
+}
+.img-20220928-wa-0044-copy-1 {
+  width: 65px;
+  height: 60px;
+  position: absolute;
+  left: 4px;
+  top: 0px;
+}
+._2023-2077-yayasan-pengukir-senyum-inc {
+  color: #ffffff;
+  text-align: left;
+  font: var(--bodytext, 500 16px/130% "Inter", sans-serif);
+  opacity: 0.6000000238418579;
+  position: relative;
+}
+.social-media-links {
+  display: flex;
+  flex-direction: row;
+  gap: 36px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.social-media-icon {
+  flex-shrink: 0;
+  width: 32px;
+  height: 32px;
+  position: relative;
+  overflow: hidden;
+}
+.group-4 {
+  position: absolute;
+  inset: 0;
+}
+.instagram-logo {
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.group {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.group-5 {
+  position: absolute;
+  inset: 0;
+}
+.xmlid-1 {
+  width: 32px;
+  height: 32.15px;
+  position: static;
+}
+.shape-4 {
+  width: 32px;
+  height: 32.15px;
+  position: static;
+}
+.shape-4-2 {
+  width: 32px;
+  height: 32.15px;
+  position: static;
+}
+.xmlid-4 {
+  width: 32px;
+  height: 32.15px;
+  position: static;
+}
+.xmlid-5 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.shape-3 {
+  position: absolute;
+  left: 0.55px;
+  top: 0.56px;
+  overflow: visible;
+}
+.shape-2 {
+  width: 32px;
+  height: 32.15px;
+  position: static;
+}
+.shape-2-2 {
+  width: 32px;
+  height: 32.15px;
+  position: static;
+}
+.xmlid-7 {
+  width: 32px;
+  height: 32.15px;
+  position: static;
+}
+.xmlid-8 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.shape-1 {
+  width: 16.18px;
+  height: 15.01px;
+  position: static;
+}
+.shape-1-2 {
+  width: 16.18px;
+  height: 15.01px;
+  position: static;
+}
+.xmlid-10 {
+  position: absolute;
+  left: 7.97px;
+  top: 8.58px;
+  overflow: visible;
+}
+.group-6 {
+  position: absolute;
+  inset: 0;
+}
+.you-tube-logo {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.vector-3 {
+  opacity: 0.5;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.row-2 {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.column {
+  opacity: 0.5;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 270px;
+  position: relative;
+}
+.link-1 {
+  color: #ffffff;
+  text-align: center;
+  font: 500 16px/130% "Inter", sans-serif;
+  text-decoration: underline;
+  position: relative;
+  align-self: stretch;
+}
+.column-2 {
+  opacity: 0.5;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 270px;
+  position: relative;
+}
+.column-3 {
+  opacity: 0.5;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 270px;
+  position: relative;
+}
+.frame-3 {
+  padding: 24px 10px 10px 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.jl-pajajaran-dalam-no-97-husen-sastranegara-kec-cicendo-kota-bandung-jawa-barat-40174 {
+  color: #ffffff;
+  text-align: left;
+  font: var(--bodytext, 500 16px/130% "Inter", sans-serif);
+  opacity: 0.6000000238418579;
+  position: relative;
+}
